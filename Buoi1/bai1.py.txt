@@ -1,0 +1,3 @@
+Bài 1:
+-Python là ngôn ngữ thông dịch.
+-Vì: Khi ta để chương trình python chạy thì nó sẽ thực hiện từng dòng mã thay vì biên dịch thành mã máy trước khi chạy.

@@ -1,0 +1,73 @@
+Bài 2:
+*Các kiểu dữ liệu trong Python:
+-Boolean: Dùng để lưu trữ 2 kiểu dữ liệu True (đúng) và False (sai).
+-Kiểu số:
++Int: Dùng để lưu trữ các số nguyên.
++Float: Dùng để lưu trữ các số thực.
++Complex: Dùng để lưu trữ các số phức.
+-Kiểu chuỗi (string): Dùng để lưu trữ các chuỗi kí tự.
+-Byte: Dùng để lưu trữ các chuỗi byte (8 bit) khác nhau từ 0 đến 255.
+-Kiểu danh sách (list): Dùng để lưu trữ một tập hợp các giá trị, có thể là các kiểu dữ liệu khác nhau,  sau khi tạo có thể thay đổi, nó được định nghĩa trong dấu ngoặc vuông.
+-Tuple: Tương tự như danh sách, nhưng không thể thay đổi sau khi tạo, nó được định nghĩa trong dấu ngoặc đơn.
+-Set: Dùng để lưu trữ tập hợp các giá trị không trùng lặp, nó được định nghĩa bên trong giấu ngoặc nhọn.
+-Kiểu từ điển (Dictionary): Dùng để lưu trữ tập hợp các cặp khóa-giá trị, mỗi khóa được liên kết với một giá trị duy nhất.
+
+*Các toán tử trong Python:
+-Toán tử số học: Dùng để thực hiện các phép toán số học cơ bản như cộng, trừ, nhân, chia, lấy dư, v.v.
++Cộng: “+”.
++Trừ: “-”.
++Nhân: “*”.
++Chia: “/”.
++Chia lấy phần nguyên: “//”.
++Chia lấy phần dư: “%”.
++Lũy thừa: “**”.
+-Toán tử quan hệ:
++Bằng nhau: “==”.
++Khác nhau: “!=”.
++Lớn hơn: “>”.
++Bé hơn: “<”.
++Lớn hơn hoặc bằng: “>=”.
++Bé hơn hoặc bằng: “<=”.
+-Toán tử logic:
++Và: “and”.
++Hoặc: “or”.
++Phủ định: “not”.
+-Toán tử gán:
++Gán cộng: “+=”.
++Gán trừ: “-=”.
++Gán nhân: “*=”.
++Gán chia: “/=”.
++Gán chia lấy phần nguyên: “//=”.
++Gán chia lấy phần dư: “%=”.
++Gán lũy thừa: “**=”.
+-Toán tử thành viên: Dùng để kiểm tra xem một giá trị có nằm trong một tập hợp hay không.
++Thuộc về: “in”.
++Không thuộc về: “not in”.
+-Toán tử định danh: Dùng để kiểm tra xem hai đối tượng có tham chiếu đến cùng một vùng nhớ hay không.
++Là: “is”.
++Không phải là: “is not”.
+
+*Mệnh đề điều kiện và vòng lặp:
+-Mệnh đề điều kiện (if-elif-else): Mệnh đề điều kiện cho phép bạn thực hiện các khối lệnh khác nhau dựa trên kết quả đánh giá của một biểu thức điều kiện.
++Cấu trúc cơ bản:
+if <điều kiện 1>: 
+<khối lệnh 1>
+elif <điều kiện 2>:
+	<khối lệnh 2>
+ else: 
+<khối lệnh 3>
+-Mệnh đề vòng lặp:
++Vòng lặp For: Dùng để lặp qua các phần tử trong một tập hợp (danh sách, chuỗi, tuple, v.v.).
+
+for <biến lặp> in <tập hợp>: 
+<khối mã>
+
++Vòng lặp While: Dùng để lặp lại một khối lệnh nhiều lần cho đến khi một điều kiện được thỏa mãn.
+
+while <điều kiện>:
+<khối mã>
+
+*Kiểu dữ liệu True và False:
+-True và False là hai giá trị Boolean cơ bản đại diện cho hai trạng thái logic: đúng và sai. Kiểu dữ liệu Boolean được sử dụng để lưu trữ các giá trị này và được sử dụng trong các biểu thức điều kiện và các phép toán logic.
+-Bạn có thể khai báo các biến có kiểu dữ liệu Boolean bằng cách sử dụng các từ khóa “True” và “False”.
+-Nó được dùng để kiểm tra tính đúng sai trong các biểu thức điều kiện và các biểu thức so sánh.
