@@ -10,9 +10,13 @@ if n*m > k:
     print("NO")
 else:
     ma_tran = []
+    index=0
     for i in range(n):
-        hang = a[i * m: (i + 1) * m]
-        ma_tran.append(hang)
+        row=[]
+        for j in range(m):
+            row.append(a[index])
+            index+=1
+        ma_tran.append(row)
     print(f"Ma trận X({n} × {m}):")
-    for hang in ma_tran:
-        print(hang)
+    for row in ma_tran:
+        print(row)
